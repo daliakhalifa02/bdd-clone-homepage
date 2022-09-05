@@ -1,0 +1,515 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+
+.flex {
+    display: flex;
+}
+
+.hero {
+    background: url("images/bdd1.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    position: relative;
+}
+
+.top-nav {
+    justify-content: space-between;
+    height: 80px;
+    padding-left: 80px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.bdd-logo{
+    height: 100px;
+    width: 70px;
+}
+
+.links {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+  
+.links > li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.links > li:last-child {
+    margin-right: 0px;
+}
+
+.btn {
+    padding: 14px 25px;
+    border: none;
+    border-radius: 5em;
+}
+
+.btn1{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5em;
+    font-size: 12px;
+    float: right;
+    margin-top: 20px;
+}
+.btn-blue {
+    background-color: #1663be;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero-content {
+    padding: 40vh 0 10vh 0;
+}
+  
+.hero-heading {
+    font-size: 40px;
+    margin-bottom: 142px;
+    padding-bottom: 20px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.overlay {
+    background: rgba(26, 25, 25, 0.7);
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    height: 100%;
+}
+
+.font{
+    font-family: sans-serif;
+    text-transform:uppercase; 
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 102px;
+    background: rgba(50, 50, 53, 0.2);
+}
+
+.item {
+    width:230px;
+    height:470px;
+    margin:5px;
+    background:#ffff;
+    border-radius: 1ex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: transform .2s;
+}
+
+.columns{
+    background-color: #ececec;
+    height: 660px;
+}
+
+.dir-column{
+    justify-content: space-evenly;
+}
+
+h2{
+    font-size: 26px;
+    padding: 50px;
+}
+
+.text-center{
+    text-align: center;
+}
+.column-text{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    color: grey;
+}
+
+.common{
+    margin-top: 30px;
+    height: 80px;
+}
+.column-photo{
+    width: 170px;
+    margin-left: 30px;
+}
+
+.column-photo1{
+    margin-left: 60px;
+}
+
+.column-photo2{
+    margin-left: 75px;
+}
+
+.column-photo3{
+    margin-left: 67px;
+}
+
+.column-photo4{
+    margin-left: 50px;
+
+}
+
+h3{
+    text-align: center;
+    margin: 15px;
+    font-family: Arial Black;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform:uppercase; 
+}
+
+.item:hover:not(.join){
+    background-color: #d4ebf2;
+}
+
+.join:hover{
+    transform: scale(1.1);
+}
+
+.video-section{
+    background: url("images/parallax-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    position: relative;
+    height: 600px;
+}
+
+.vid{
+    height: 400px;
+    width: 650px;
+    margin-left: 350px;
+}
+
+.join-bdd{
+    height: 350px;
+    width: 420px;
+    margin-top: 30px;
+}
+
+.join{
+    margin-top: 30px;
+    width: 200px;
+    padding-top: 0px;
+    
+}
+
+.join-h2{
+    margin-bottom: -50px;
+}
+
+.h3-join{
+    padding-top: 50px;
+}
+
+.join-btn{
+    height: 40px;
+    width: 120px;
+   
+}
+
+.join-btn2{
+    height: 40px;
+    width: 120px;
+    float: right;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+.download{
+    margin-top: 30px;
+    font-family: arial black;
+    float: right;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+.home{
+    background: url("parallax-light.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 400px;
+    margin-top: 150px;
+}
+
+.home-logos{
+    height: 90px;
+    margin: 20px;
+}
+
+.home-logos > img{
+    margin-bottom:30px ;
+    padding-left: 20px;
+    margin-top: -50px;
+}
+
+.home-p{
+    text-align: center;
+    font-family: arial Black;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.transparent-text {
+    text-align: center;
+    line-height: 5vh;
+    height: 5vh;
+    -webkit-text-stroke-width: 2px;
+    font-family: arial Black;
+    font-size: 5vh;
+    font-weight: 200;
+    color: transparent; 
+    padding-left: 20px;
+}
+
+.academy{
+    background: url("parallax-7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 350px;
+}
+
+marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+.unordered{
+    list-style-type:none;
+    list-style-image: url("bullet.png");
+    padding-left: 50px;
+    padding-right: 30px;
+    background-image: url(bg-icon.png);
+    background-position: center left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+figure.video a:before, figure.youtube a:before {
+    border-left: 10px solid #0078BE;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -3px;
+    margin-top: -7px;
+    display: block;
+}
+
+figure.video a:after, figure.youtube a:after {
+    content: "";
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    z-index: 9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0 0 -30px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 10px rgb(255 255 255 / 25%);
+}
+
+.whats-trending{
+    width:350px;
+    height:440px;
+    background:#ffff;
+    border-radius: 1ex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: transform .2s;
+}
+
+.trending{
+    height: 250px;
+    width: 100%;
+    margin-bottom: -30px;
+}
+
+.tren{
+    text-align: left;
+}
+
+.whats-trending > p{
+    padding-left: 20px;
+    font-size: 12px;
+    border-top: 1px solid  #c0c3c4;
+    padding-top: 20px;
+}
+
+.btn2{
+    padding: 15px 28px;
+    border: none;
+    border-radius: 5em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 600px;
+    text-align: center;
+}
+
+.academy-img{
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+}
+
+.acdm > p{
+    color: white;
+    font-size: 15px;
+    font-family: arial;
+    line-height: 1.6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.acdm > h3{
+    color: white;
+    text-align: center;
+}
+
+.button > button{
+    margin-left: 500px;
+}
+
+.community-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 1em;
+}
+
+.box{
+    height: 190px;
+    width: 350px;
+    border-radius: 1ch;
+    border-color: #c0c3c4;
+    border-width: thin;
+    border-style: solid;
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-left: 20px
+}
+
+.community{
+    height: 300px;
+}
+
+.box > p{
+    font-family: arial black;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.no-br{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.head{
+    font-weight: 900;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.footer{
+    background-color: #191919;
+    height: 450px;
+}
+
+h4{
+    color: grey;
+    font-family: arial;
+}
+
+.list > li{
+    color: white;
+    font-family: arial;
+    font-size: 13px;
+    line-height: 3;
+}
+
+.footer >h5{
+    color: rgb(168, 167, 167);
+    font-family: arial black;
+    font-size: 15px;
+    padding-top: 50px;
+    margin-left: 130px;
+    margin-bottom: 30px;
+}
+
+h5{
+    color: rgb(168, 167, 167);
+    font-family: arial black;
+    font-size: 15px;
+    margin-top: -55px;
+    margin-bottom: 50px;
+}
+
+.footer-btn{
+    margin-left: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.p{
+    border-bottom: 1px solid  #c0c3c4;
+    color: grey;
+    font-size: 15px;
+}
+
+.p2{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 20px;
+}
+
+.p3{
+    color: white;
+    font-size: 12px;
+    display: inline;
+}
+
+.footer-img{
+    height: 50px;
+    width: 170px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.c{
+    color: white;
+    font-size: 12px;
+    margin-left: 100px;
+}
